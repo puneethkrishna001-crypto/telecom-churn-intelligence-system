@@ -8,15 +8,15 @@ import pandas as pd
 # =========================
 
 model = pickle.load(
-    open('models/xgb_model.pkl', 'rb')
+    open('../models/xgb_model.pkl', 'rb')
 )
 
 scaler = pickle.load(
-    open('models/scaler.pkl', 'rb')
+    open('../models/scaler.pkl', 'rb')
 )
 
 features = pickle.load(
-    open('models/feature_names.pkl', 'rb')
+    open('../models/feature_names.pkl', 'rb')
 )
 
 # =========================
