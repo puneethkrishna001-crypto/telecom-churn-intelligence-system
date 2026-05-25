@@ -2,21 +2,28 @@ import streamlit as st
 import pickle
 import numpy as np
 import pandas as pd
+import os
 
 # =========================
 # LOAD MODEL FILES
 # =========================
 
+# Get absolute paths for deployment compatibility
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(os.path.dirname(BASE_DIR), 'models', 'xgb_model.pkl')
+SCALER_PATH = os.path.join(os.path.dirname(BASE_DIR), 'models', 'scaler.pkl')
+FEATURE_PATH = os.path.join(os.path.dirname(BASE_DIR), 'models', 'feature_names.pkl')
+
 model = pickle.load(
-    open('../models/xgb_model.pkl', 'rb')
+    open(MODEL_PATH, 'rb')
 )
 
 scaler = pickle.load(
-    open('../models/scaler.pkl', 'rb')
+    open(SCALER_PATH, 'rb')
 )
 
 features = pickle.load(
-    open('../models/feature_names.pkl', 'rb')
+    open(FEATURE_PATH, 'rb')
 )
 
 # =========================
