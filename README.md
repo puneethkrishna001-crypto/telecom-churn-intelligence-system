@@ -67,19 +67,23 @@ to create a complete customer retention intelligence system.
 
 # 📈 Dashboard Preview
 
-(Add dashboard screenshot here)
+<img width="828" height="473" alt="image" src="https://github.com/user-attachments/assets/ab763bc8-a0eb-4651-a18b-bd2490970553" />
+
 
 ---
 
 # 🧠 SHAP Explainability
 
-(Add SHAP screenshot here)
+<img width="1162" height="723" alt="Screenshot 2026-05-25 091949" src="https://github.com/user-attachments/assets/00317ccd-47f0-40e5-b4e5-ee6ae51ae2e7" />
+
 
 ---
 
 # 🌐 Streamlit App
 
-(Add Streamlit screenshot here)
+<img width="1871" height="1177" alt="Screenshot 2026-05-25 104142" src="https://github.com/user-attachments/assets/efac65f2-c1c4-438f-b884-5c16e0997e31" />
+<img width="1880" height="1156" alt="Screenshot 2026-05-25 104153" src="https://github.com/user-attachments/assets/064f725a-757f-4365-a5cf-75642bfd7e13" />
+
 
 ---
 
