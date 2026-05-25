@@ -84,7 +84,9 @@ to create a complete customer retention intelligence system.
 <img width="1871" height="1177" alt="Screenshot 2026-05-25 104142" src="https://github.com/user-attachments/assets/efac65f2-c1c4-438f-b884-5c16e0997e31" />
 <img width="1880" height="1156" alt="Screenshot 2026-05-25 104153" src="https://github.com/user-attachments/assets/064f725a-757f-4365-a5cf-75642bfd7e13" />
 
+## 🌐 Live Demo
 
+👉 [Try the Live Churn Prediction App](https://commitsapporpuneethkrishna001-crypto-chv3kagu54usxld9bmydbq.streamlit.app/)
 ---
 
 ## ⚙️ How to Run Locally
