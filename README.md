@@ -87,6 +87,18 @@ to create a complete customer retention intelligence system.
 
 ---
 
+## ⚙️ How to Run Locally
+
+
+git clone https://github.com/puneethkrishna001-crypto/telecom-churn-intelligence-system.git
+
+cd telecom-churn-intelligence-system
+
+pip install -r requirements.txt
+
+streamlit run app/app.py
+
+
 # 📂 Project Structure
 
 ```bash
@@ -99,18 +111,6 @@ churn-prediction/
 ├── notebooks/
 ├── sql/
 └── README.md
-
-## ⚙️ How to Run Locally
-
-```bash
-git clone https://github.com/puneethkrishna001-crypto/telecom-churn-intelligence-system.git
-
-cd telecom-churn-intelligence-system
-
-pip install -r requirements.txt
-
-streamlit run app/app.py
-```
 
 Author
 
